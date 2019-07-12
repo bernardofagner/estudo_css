@@ -1,0 +1,31 @@
+/*Comentário vem nesta forma*/
+/*Seletor universal*/
+*{
+	color: #006699;
+}
+
+/*Seletor elemento*/
+p{
+	color: #006699;
+}
+
+/*Seletor classe*/
+.titulo{
+	color: #156dea;
+}
+.tamanho{
+	text-decoration: underline;
+	font-size: 22px;
+}
+
+/*Seletor ID*/
+#post01{
+	text-align: justify;
+	background-color: #ffff88;
+}
+
+/*Seletor atributo*/
+strong[title="casa"]{
+	color: #00ff00;
+	font-size: 40px;
+}

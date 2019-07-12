@@ -1,0 +1,23 @@
+/*Forma abreviada*/
+div strong {
+		color: red;
+		font-size: 30px;
+	}
+/* Forma completa
+div p strong {
+	estilos
+}
+*/
+
+div > strong {
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+p + p{
+	color: blue;
+}
+
+p + h2{
+	color: green;
+}
